@@ -1,7 +1,18 @@
 .App {
   text-align: center;
 }
-
+.h1{
+  text-align:center;
+}
+.container {
+  text-align: center;
+  width:90%;
+  
+}
+.span{
+  color:rgb(53, 18, 18);
+  box-sizing: border-box;
+}
 .App-logo {
   height: 40vmin;
   pointer-events: none;
