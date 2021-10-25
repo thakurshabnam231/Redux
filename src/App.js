@@ -10,10 +10,10 @@ function App() {
     <div class="container">
     <h1>increment/decrement counter using redux</h1>
      <div class="span">
-     <button onClick={()=>dispatch(increment)}>
+     <button onClick={()=>dispatch(increment())}>
      <span>-</span></button>
      <input type="text" value={myState} ></input>
-     <button  onClick={()=>dispatch(decrement)}>
+     <button  onClick={()=>dispatch(decrement())}>
      <span>+</span>
      </button>
      </div>
